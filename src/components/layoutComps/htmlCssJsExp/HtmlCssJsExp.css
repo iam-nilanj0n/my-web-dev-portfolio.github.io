@@ -1,0 +1,17 @@
+.HtmlCssJsExp {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(auto, auto);
+}
+
+/* Responsive UI */
+@media (width<1340px){
+    .HtmlCssJsExp{
+        grid-template-columns: repeat(3, auto);
+    }
+}
+@media (width<800px){
+    .HtmlCssJsExp{
+        grid-template-columns: repeat(3, 220px);
+    }
+}

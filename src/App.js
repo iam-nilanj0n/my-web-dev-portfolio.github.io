@@ -1,4 +1,6 @@
 import './App.css';
+import HtmlCssJsExp from './components/layoutComps/htmlCssJsExp/HtmlCssJsExp';
+import ReactJsExp from './components/layoutComps/reactJSExp/ReactJsExp';
 
 function App() {
   return (
@@ -50,35 +52,13 @@ function App() {
       <section className='portfolio-section'>
         <h2>Projects</h2>
 
+        {/* Projects With HTML, CSS amd JavaScript is shown here */}
         <p>Projects Using HTML, CSS and vanilla JavaScript</p>
+        <HtmlCssJsExp/>
 
-        <div>
-          <div className='iframe-card'>
-            <iframe src="https://iam-nilanj0n.github.io/showMoreOrLess.github.io/" title='Show More Or Less'></iframe>
-            <p>Show Less Or More</p>
-            <a target='blank' href='https://iam-nilanj0n.github.io/showMoreOrLess.github.io/'> Visit Site</a>
-          </div>
-
-          <div className='iframe-card'>
-            <iframe src="https://iam-nilanj0n.github.io/gradeCalculator.github.io/" title='Grade Calculator'></iframe>
-            <p>Grade Calculator</p>
-            <a target='blank' href='https://iam-nilanj0n.github.io/gradeCalculator.github.io/'> Visit Site</a>
-          </div>
-
-          <div className='iframe-card'>
-            <iframe src="https://iam-nilanj0n.github.io/tip-calculator.github.io/" title='Tip Calculator'></iframe>
-            <p>Tip Calculator</p>
-            <a target='blank' href='https://iam-nilanj0n.github.io/tip-calculator.github.io/'> Visit Site</a>
-          </div>
-
-          <div className='iframe-card'>
-            <iframe src="https://iam-nilanj0n.github.io/US-zip-code-search.github.io/" title='US Zip Code Search'></iframe>
-            <p>US Zip Code Searchr</p>
-            <a target='blank' href='https://iam-nilanj0n.github.io/US-zip-code-search.github.io/'> Visit Site</a>
-          </div>
-
-
-        </div>
+        {/* Projects with React JS */}
+        <p>Projects using React Js</p>
+        <ReactJsExp/>
       </section>
 
 
