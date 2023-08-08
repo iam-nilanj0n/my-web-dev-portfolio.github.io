@@ -1,6 +1,7 @@
 import './App.css';
 import HtmlCssJsExp from './components/layoutComps/htmlCssJsExp/HtmlCssJsExp';
 import ReactJsExp from './components/layoutComps/reactJSExp/ReactJsExp';
+import myProfilePic from './assets/Passport-Pic.jpeg';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       {/* portfolio header section is here */}
       <header className='portfolio-header'>
         <h3>Nilanjan</h3>
-        <div>
+        <div className='header-buttons'>
           <button>Home</button>
           <button>About</button>
           <button>Portfolio</button>
@@ -21,17 +22,17 @@ function App() {
       {/* Home section is here */}
       <section className='home-section'>
         <div className='home-section-left'>
-          <h1>
+          <h1 className='home-section-h1'>
             I'm a Full Stack Developer
           </h1>
 
-          <h3>
+          <h3 className='home-section-h3'>
             I’m an aspiring Full Stack Developer looking for a new role in an exciting company. I am a creative front-end developer based in India. I have hands-on experience in building projects using HTML, CSS, Javascript, and MERN stack. I speacialise in creating interactive experiences using React.
           </h3>
         </div>
 
         <div className='home-section-right'>
-
+          <img src={myProfilePic} className='profile-Pic' alt='profile-Pic'/>
         </div>
       </section>
 
@@ -50,14 +51,12 @@ function App() {
 
       {/* Portfolio section is here */}
       <section className='portfolio-section'>
-        <h2>Projects</h2>
+        <h2 className='portfolio-section-heading'>Projects</h2>
 
         {/* Projects With HTML, CSS amd JavaScript is shown here */}
-        <p>Projects Using HTML, CSS and vanilla JavaScript</p>
         <HtmlCssJsExp/>
 
         {/* Projects with React JS */}
-        <p>Projects using React Js</p>
         <ReactJsExp/>
       </section>
 

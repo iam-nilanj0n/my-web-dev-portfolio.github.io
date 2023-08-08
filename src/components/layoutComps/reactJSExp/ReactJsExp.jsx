@@ -33,20 +33,23 @@ const reactJsExpArr = [
 ]
 
 export default function ReactJsExp() {
-  return (
-    <div className='ReactJsExp'>
-        {reactJsExpArr.map((project, i) => {
-                return (
+    return (
+        <>
+            <h2>Projects using React JS</h2>
+            <div className='ReactJsExp'>
+                {reactJsExpArr.map((project, i) => {
+                    return (
 
-                    <Card
-                        key={`${i}${project.URL}`}
-                        image={project.Pic}
-                        ProjectName={project.projectName}
-                        projectURL={project.URL}
-                    />
+                        <Card
+                            key={`${i}${project.URL}`}
+                            image={project.Pic}
+                            ProjectName={project.projectName}
+                            projectURL={project.URL}
+                        />
 
-                )
-            })}
-    </div>
-  )
+                    )
+                })}
+            </div>
+        </>
+    )
 }

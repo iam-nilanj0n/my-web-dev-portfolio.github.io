@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(auto, auto);
+    padding: 0 5%;
 }
 
 /* Responsive UI */
@@ -13,5 +14,6 @@
 @media (width<800px){
     .HtmlCssJsExp{
         grid-template-columns: repeat(3, 220px);
+        padding: 0;
     }
 }

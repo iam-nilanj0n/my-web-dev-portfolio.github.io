@@ -50,25 +50,28 @@ const htmlCssJsExpArr = [
     {
         Pic: jsSecondCounter,
         projectName: 'Second Counter',
-        URL :'https://iam-nilanj0n.github.io/second-counter/'
+        URL: 'https://iam-nilanj0n.github.io/second-counter/'
     }
 ]
 
 export default function HtmlCssJsExp() {
     return (
-        <div className='HtmlCssJsExp'>
-            {htmlCssJsExpArr.map((project, i) => {
-                return (
+        <>
+            <h2>Projects Using HTML, CSS and vanilla JavaScript</h2>
+            <div className='HtmlCssJsExp'>
+                {htmlCssJsExpArr.map((project, i) => {
+                    return (
 
-                    <Card
-                        key={`${i}${project.URL}`}
-                        image={project.Pic}
-                        ProjectName={project.projectName}
-                        projectURL={project.URL}
-                    />
+                        <Card
+                            key={`${i}${project.URL}`}
+                            image={project.Pic}
+                            ProjectName={project.projectName}
+                            projectURL={project.URL}
+                        />
 
-                )
-            })}
-        </div>
+                    )
+                })}
+            </div>
+        </>
     )
 }
