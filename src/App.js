@@ -10,6 +10,8 @@ function App() {
       {/* portfolio header section is here */}
       <header className='portfolio-header'>
         <h3>Nilanjan</h3>
+
+        {/* Buttons are created to scroll over the page */}
         <div className='header-buttons'>
           <button>Home</button>
           <button>About</button>
@@ -40,7 +42,7 @@ function App() {
       <section className='about-section'>
         <h2>About</h2>
 
-        <p>
+        <p style={{margin: '0 0 10px 0'}}>
           A self-driven individual who is good at problem solving and programming, with an emphasis on writing clean and maintainable code, aspiring to make a career in software engineering with a focus on full stack development.
         </p>
 
@@ -59,6 +61,8 @@ function App() {
         {/* Projects with React JS */}
         <ReactJsExp/>
       </section>
+
+      
 
 
     </div>
