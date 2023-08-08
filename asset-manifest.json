@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-web-dev-portfolio.github.io/static/css/main.10cbdd0f.css",
+    "main.js": "/my-web-dev-portfolio.github.io/static/js/main.b6f7e6a9.js",
+    "static/media/showMoreOrLess.png": "/my-web-dev-portfolio.github.io/static/media/showMoreOrLess.240ff9816a68c47c72ac.png",
+    "static/media/Lobster-Regular.ttf": "/my-web-dev-portfolio.github.io/static/media/Lobster-Regular.03c38496322925fec242.ttf",
+    "static/media/Passport-Pic.jpeg": "/my-web-dev-portfolio.github.io/static/media/Passport-Pic.45d8057d42441c24ad21.jpeg",
+    "static/media/quiz-App.png": "/my-web-dev-portfolio.github.io/static/media/quiz-App.00766dc0c7c095e1ab88.png",
+    "static/media/live-time-with-js.png": "/my-web-dev-portfolio.github.io/static/media/live-time-with-js.dd00dc5a237ad5020a42.png",
+    "static/media/name-search.png": "/my-web-dev-portfolio.github.io/static/media/name-search.7a4a1677bb0a4b3de681.png",
+    "static/media/Grade-calculator.png": "/my-web-dev-portfolio.github.io/static/media/Grade-calculator.5866033b46a00be21e2d.png",
+    "static/media/React-Stopwatch.png": "/my-web-dev-portfolio.github.io/static/media/React-Stopwatch.1b20d46838a6f9ff12bb.png",
+    "static/media/Tip-calculator.png": "/my-web-dev-portfolio.github.io/static/media/Tip-calculator.d2d87ce20bc6aee53089.png",
+    "static/media/weight-converter.png": "/my-web-dev-portfolio.github.io/static/media/weight-converter.f5ce2622e210e37c2825.png",
+    "static/media/US-Zip-Code-Search.png": "/my-web-dev-portfolio.github.io/static/media/US-Zip-Code-Search.acea7ea5c537f8fb01fe.png",
+    "static/media/Form-handling.png": "/my-web-dev-portfolio.github.io/static/media/Form-handling.9c582fed40346e278ff2.png",
+    "static/media/js-second-counter.png": "/my-web-dev-portfolio.github.io/static/media/js-second-counter.da71b36e88632ff22ad0.png",
+    "static/media/Theme toggler.png": "/my-web-dev-portfolio.github.io/static/media/Theme toggler.4b145f275a9195b28515.png",
+    "index.html": "/my-web-dev-portfolio.github.io/index.html",
+    "main.10cbdd0f.css.map": "/my-web-dev-portfolio.github.io/static/css/main.10cbdd0f.css.map",
+    "main.b6f7e6a9.js.map": "/my-web-dev-portfolio.github.io/static/js/main.b6f7e6a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10cbdd0f.css",
+    "static/js/main.b6f7e6a9.js"
+  ]
+}
