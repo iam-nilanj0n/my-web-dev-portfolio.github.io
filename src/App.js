@@ -12,13 +12,13 @@ function App() {
         <h3>Nilanjan</h3>
 
         {/* Buttons are created to scroll over the page */}
-        <div className='header-buttons'>
+        {/* <div className='header-buttons'>
           <button>Home</button>
           <button>About</button>
           <button>Portfolio</button>
           <button>Experience</button>
           <button>Contact</button>
-        </div>
+        </div> */}
       </header>
 
       {/* Home section is here */}
